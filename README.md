@@ -1,12 +1,52 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Leo9 Studio Homepage - Frontend Assignment Submission
+This project is a recreation of the navigation bar and hero section of the Leo9 Studio website, completed as a frontend development assignment. The primary focus was on creating a clean, responsive, and functional user interface while also integrating a modern AI-powered feature.
 
-Currently, two official plugins are available:
+✨ Features
+Responsive Navigation Bar: A fully responsive navigation bar that adapts seamlessly from desktop to mobile views.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Functional Mobile Menu: A clean "hamburger" menu for mobile devices, implemented with React state for a smooth user experience.
 
-## Expanding the ESLint configuration
+Clean Hero Section: A well-structured hero section built using modern CSS (Flexbox) for robust and centered alignment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive Elements: Subtle hover effects on buttons and navigation links to enhance user interaction.
+
+Bonus Feature: Gemini API Integration: An interactive button that utilizes the Google Gemini API to dynamically generate creative web app ideas, showcasing the integration of modern AI services into a frontend application.
+
+🛠️ Tech Stack
+Framework: React (Vite)
+
+Styling: CSS3 (Flexbox for Layout)
+
+API: Google Gemini API
+
+🚀 Getting Started
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/ambersoni33/basic_react_navbar_and_heroSection
+
+Navigate to the project directory:
+
+cd basic_react_navbar_and_heroSection
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+The application will be available at http://localhost:5173 (or another port if 5173 is busy).
+
+💡 Challenges & Future Improvements
+The original Leo9 Studio website features complex SVG text-mask animations. While my priority for this assignment was to master the fundamentals of layout, responsiveness, and API integration, a future improvement would be to replicate these advanced animation techniques.
+
+Live Demo URL
+https://basic-react-navbar-and-hero-section.vercel.app/
+
+GitHub Repository Link
+https://github.com/ambersoni33/basic_react_navbar_and_heroSection
